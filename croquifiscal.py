@@ -1,4 +1,9 @@
-import urllib
+import urllib, os
+
+# Diretório
+folder_dir = r'path\to\folder\CADASTRO Croqui_Fiscal'
+if # se não existe o dir:
+  os.makedirs(folder_dir)
 
 # Definição do SQ
 setor = 299
