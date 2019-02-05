@@ -26,6 +26,7 @@ for SQ in SQ_Lista:
   # print(url)  # Verificação da uri
 
   # Cria um novo arquivo e salva o conteúdo
+  ##TODO: Criar diretório
   file = open(r'path\to\folder\CADASTRO Croqui_Fiscal\CF {0:0>3}_{1:0>3}.pdf'.format(SQ[0], SQ[1]), 'bw')
   file.write(fileobj.read())
   file.close()
